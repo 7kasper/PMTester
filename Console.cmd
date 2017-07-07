@@ -1,0 +1,1 @@
+php -dphar.readonly=0 Console.php --make="./PMTester/" --relative="./PMTester/" --out="PMTester.phar"

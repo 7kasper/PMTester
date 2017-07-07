@@ -1,0 +1,18 @@
+name: PMTester
+version: 1.0
+api: [3.0.0-ALPHA6]
+description: "Simple plugin to test PocketMine features."
+author: 7kasper
+website: https://github.com/7kasper/PMTester
+load: STARTUP
+main: nl\dev7kasper\PMTester\main\PMTester
+commands:
+ zombie:
+  description: "Get yourself a zombeh."
+  usage: "Usage: /zombie"
+ leash:
+  description: "Leash all."
+  usage: "Usage: /leash"
+ unleash:
+  description: "Uneash all."
+  usage: "Usage: /unleash"
